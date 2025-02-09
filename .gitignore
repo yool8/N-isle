@@ -13,7 +13,7 @@
 
 # next.js
 /.next/
-/out/
+out/
 
 # production
 /build/
@@ -57,3 +57,7 @@ Desktop.ini
 *.bak            # 백업 파일
 *.swp            # 스왑 파일 (Vim 등에서 생성되는 임시 파일)
 *.pid            # 프로세스 ID 파일들
+
+# Allow src and utils folders
+!src/
+!utils/
