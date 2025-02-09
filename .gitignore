@@ -1,8 +1,8 @@
 # dependencies
 /node_modules/
-.pnp/
+/.pnp/
 /.pnp.js
-.yarn/*
+/yarn/*
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
@@ -51,3 +51,9 @@ next-env.d.ts
 # OS-specific files
 Thumbs.db
 Desktop.ini
+
+# additional files to ignore
+*.log            # 추가적인 로그 파일
+*.bak            # 백업 파일
+*.swp            # 스왑 파일 (Vim 등에서 생성되는 임시 파일)
+*.pid            # 프로세스 ID 파일들
