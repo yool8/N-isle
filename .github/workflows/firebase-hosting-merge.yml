@@ -5,6 +5,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Set up Firebase CLI
+        run: firebase login --token ${{ secrets.FIREBASE_CI_TOKEN }}  # CI 토큰으로 로그인
+
       - name: Install dependencies
         run: npm install
 
