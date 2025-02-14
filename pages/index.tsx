@@ -1,13 +1,24 @@
 // pages/index.tsx
 import React from "react";
 import Header from "../components/Header";
+import Link from "next/link"; // Link 컴포넌트 임포트
 
 const Home = () => {
   return (
     <div>
       <Header />
       <main>
-        <h2>엉엉༼;´༎ຶ ۝ ༎ຶ༽༼;´༎ຶ ۝ ༎ຶ༽༼;´༎ຶ ۝ ༎ຶ༽( o̴̶̷̥᷅⌓o̴̶̷᷄ ) d( o̴̶̷̥᷅⌓o̴̶̷᷄ ) ( o̴̶̷̥᷅⌓o̴̶̷᷄ ) 허엉엉으엉엉엉 갸아앙ㅇ헝헝흐앙앙༼ ˃ɷ˂ഃ༽༼ ˃ɷ˂ഃ༽엉엉흐엉어허어엉ㅇ어ㅠㅓ허허허휴ㅠㅠㅠㅠㅎ어어유ㅠㅠㅠㅠ파하규ㅠㅠㅠ༼;´༎ຶ ۝ ༎ຶ༽༼;´༎ຶ ۝ ༎ຶ༽꺼이꺼이 허엉엉엉ㅇ오렁ㅍㅍㅍ퓨엉엉어ㅠㅠㅠㅠ킁커허헝헝엉•°⎝(°`ㅅ´ °)⎠°••°⎝(°`ㅁ´ °)⎠°•흐앙앙하앙헝허엉어유ㅠㅠ( ˃ ⌑ ˂ഃ )갸아어 ｡ﾟ(ﾟ∩´ㅅ`∩ﾟ)ﾟ｡ﾟ .•°(° ＞⌓＜°)°•.허어어어어엉허어•° •° •°(°`ㅁ´ °)°• °•°••° •° •</h2>
+        <div className="wrap">
+          <div className="contents">
+            <div className="cont_box fixed">
+              <img src="/icon_login.png" alt="" />
+              <div className="btn_box">
+              <Link href="/login">LOGIN</Link>
+                <Link href="/join">JOIN</Link>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   );

@@ -1,0 +1,18 @@
+// styles/IntroScreen.module.scss
+.intro-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #529075; // 배경 색상
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; // 인트로 화면이 제일 위에 보이도록
+  font-size: 2rem;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+}
