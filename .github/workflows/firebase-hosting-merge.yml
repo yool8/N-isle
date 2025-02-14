@@ -1,3 +1,14 @@
+name: Deploy to Firebase Hosting
+
+# 이벤트 트리거 설정
+on:
+  push:
+    branches:
+      - main  # main 브랜치에 푸시되면 워크플로우가 실행됨
+  pull_request:
+    branches:
+      - main  # PR이 main 브랜치에 머지될 때도 실행됨
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
