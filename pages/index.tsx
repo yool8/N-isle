@@ -8,6 +8,7 @@ const Home = () => {
     <div>
       <Header />
       <main>
+        <h1>정신 차려~~ 이 각박한 세상속에서~~</h1>
         <div className="wrap">
           <div className="contents">
             <div className="cont_box fixed">
