@@ -1,6 +1,7 @@
 import "../styles/globals.scss";
 import "../styles/header.scss";
 import "../styles/style_user.scss";
+import "../styles/membership.scss";
 import { AppProps } from "next/app";
 import { useState, useEffect } from "react";
 import IntroScreen from "../components/IntroScreen"; // IntroScreen 임포트

@@ -1,0 +1,125 @@
+.join_wrap {
+    clear: both;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    width: 920px;
+    margin: 0 auto;
+  
+    hgroup {
+      text-align: center;
+      display: block;
+      border-bottom: 0px solid #111;
+      margin: 0px;
+      padding: 0px 0px 50px 0px;
+  
+      > {
+        h2 {
+          font-weight: 500;
+          font-size: 34px;
+          letter-spacing: -3px;
+          line-height: 40px;
+          margin-bottom: 5px;
+  
+          > b {
+            color: #5247c1;
+            font-weight: 500;
+          }
+        }
+  
+        p {
+          font-size: 14px;
+          color: #999;
+          line-height: 24px;
+        }
+      }
+    }
+  
+    .join_info {
+      display: block;
+    }
+  
+    .member_type {
+      display: block;
+      font-size: 0px;
+      text-align: center;
+  
+      > a {
+        display: inline-block;
+        width: 170px;
+        border: 2px solid #303d6a;
+        background: #fff;
+        border-radius: 10px;
+        padding: 40px 25px 25px 25px;
+        vertical-align: top;
+  
+        + a {
+          margin-left: 20px;
+        }
+  
+        > {
+          i {
+            display: block;
+            width: 80px;
+            height: 80px;
+            margin: 0 auto;
+            font-size: 60px;
+            text-align: center;
+            line-height: 80px;
+            color: #303d6a;
+          }
+  
+          span {
+            display: block;
+            font-size: 18px;
+            line-height: 24px;
+            color: #303d6a;
+            margin-bottom: 30px;
+  
+            > b {
+              font-weight: 500;
+            }
+          }
+  
+          b {
+            display: block;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            line-height: 40px;
+            background: #303d6a;
+            border-radius: 20px;
+          }
+        }
+  
+        &:first-child {
+          background: #303d6a;
+          border: 2px solid #303d6a;
+  
+          > {
+            i, span {
+              color: #fff;
+            }
+  
+            b {
+              color: #303d6a;
+              background: #fff;
+            }
+          }
+        }
+      }
+    }
+  
+    div.reg_form > .row > span {
+      height: auto;
+  
+      &.chk {
+        label + label {
+          margin-left: 0;
+        }
+  
+        > label > input[type=checkbox] + span.txt_long {
+          margin-right: 10px;
+        }
+      }
+    }
+  }  
